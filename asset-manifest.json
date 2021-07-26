@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "https://kumarsaket601.github.io/csb-b0jht/static/css/main.ec66c17b.chunk.css",
+    "main.js": "https://kumarsaket601.github.io/csb-b0jht/static/js/main.9e634c5c.chunk.js",
+    "main.js.map": "https://kumarsaket601.github.io/csb-b0jht/static/js/main.9e634c5c.chunk.js.map",
+    "runtime-main.js": "https://kumarsaket601.github.io/csb-b0jht/static/js/runtime-main.5bbc49a7.js",
+    "runtime-main.js.map": "https://kumarsaket601.github.io/csb-b0jht/static/js/runtime-main.5bbc49a7.js.map",
+    "static/js/2.0ba9b4b9.chunk.js": "https://kumarsaket601.github.io/csb-b0jht/static/js/2.0ba9b4b9.chunk.js",
+    "static/js/2.0ba9b4b9.chunk.js.map": "https://kumarsaket601.github.io/csb-b0jht/static/js/2.0ba9b4b9.chunk.js.map",
+    "index.html": "https://kumarsaket601.github.io/csb-b0jht/index.html",
+    "static/css/main.ec66c17b.chunk.css.map": "https://kumarsaket601.github.io/csb-b0jht/static/css/main.ec66c17b.chunk.css.map",
+    "static/js/2.0ba9b4b9.chunk.js.LICENSE.txt": "https://kumarsaket601.github.io/csb-b0jht/static/js/2.0ba9b4b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bbc49a7.js",
+    "static/js/2.0ba9b4b9.chunk.js",
+    "static/css/main.ec66c17b.chunk.css",
+    "static/js/main.9e634c5c.chunk.js"
+  ]
+}
