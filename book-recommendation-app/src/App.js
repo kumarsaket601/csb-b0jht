@@ -58,56 +58,39 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1 style={{ marginRight: "8.5rem", color: "white" }}>
+      <h1 style={{ marginRight: "8.5rem", color: "black" }}>
         {" "}
         🌇 Travel & Place
       </h1>
-      <p style={{ marginLeft: "1rem", color: "white" }}>
+      <p style={{ marginLeft: "1rem", color: "black" }}>
         {" "}
         Here is the list of some the travel place.Check it out !!!
       </p>
 
-      {newList.map((item) => (
-        <button
-          onClick={() => clickHandler(item)}
-          style={{
-            backgroundColor: "#28262C",
-            color: "white",
-            fontSize: "15px",
-            textAlign: "left",
-            border: "0.5rem",
-            borderRadius: "0.5rem",
-            padding: "1rem 2rem",
-            margin: "0.5rem 0.5rem",
-            marginLeft: "1rem"
-          }}
-        >
-          {item}
-        </button>
-      ))}
+      <div className="main">
+        {newList.map((item) => (
+          <button onClick={() => clickHandler(item)}>{item}</button>
+        ))}
+      </div>
+
       <hr />
 
-      <div>
+      <div className="container">
         <ul>
           {travleList[meaning].map((name) => (
             <li
+              className="list-block"
               style={{
-                backgroundColor: "#28262C",
-                listStyle: "none",
-                margin: "1rem auto",
-                padding: "2rem 2rem",
-                border: "0.2rem ",
-                textAlign: "left",
-                borderRadius: "0.5rem",
-                color: "white",
-                width: "24rem"
+                listStyle: "none"
               }}
             >
               <div style={{ fontSize: "x-large", color: "yellow" }}>
                 {name.name}
               </div>
 
-              <div style={{ fontSize: "medium" }}>{name.rating}</div>
+              <div style={{ color: "white", fontSize: "medium" }}>
+                {name.rating}
+              </div>
             </li>
           ))}
         </ul>
