@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/styles.css"],"names":[],"mappings":"AAAA,KACE,qBAAsB,CACtB,iBAAkB,CAClB,qBAAuB,CAEvB,YACF","file":"main.ec66c17b.chunk.css","sourcesContent":[".App {\n  font-family: monospace;\n  text-align: center;\n  background-color: black;\n\n  padding: 6.5%;\n}\n"]}
